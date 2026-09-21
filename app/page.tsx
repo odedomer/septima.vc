@@ -1,7 +1,16 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="container">
-      <span className="text">Coming Soon...</span>
+      <Image
+        src="/septima-logo.png"
+        alt=""
+        width={1200}
+        height={1200}
+        priority
+        className="logo"
+      />
     </main>
   );
 }

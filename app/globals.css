@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  background-color: #000000;
+  background-color: #111111;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
 }
@@ -24,12 +24,7 @@ body {
   height: 100dvh;
 }
 
-.text {
-  color: #c6a15b;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 0.35em;
-  font-size: clamp(1rem, 4vw, 1.75rem);
-  text-align: center;
-  white-space: nowrap;
+.logo {
+  width: min(90vw, 480px);
+  height: auto;
 }
